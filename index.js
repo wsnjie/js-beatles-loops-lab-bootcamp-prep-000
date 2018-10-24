@@ -21,7 +21,7 @@ function iLoveTheBeatles(n){
  n = (15 - n)+1
   do{
     love.push("I love the Beatles!")
-    i++
+    n++
   }while(n<15)
   return love
 }
