@@ -4,6 +4,6 @@ var band = []
 for (var i = 0; i < 4; i++){
     var bandmate = musicians[i]
     var playing = instruments[i]
-  band.push(bandmate)}
+  band.push(bandmate "plays")}
 return band
 }
