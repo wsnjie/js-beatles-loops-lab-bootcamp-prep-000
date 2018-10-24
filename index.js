@@ -8,7 +8,7 @@ for (var i = 0; i < 4; i++){
 return band
 }
 function johnLennonFacts(array){
-  var i = 2
+  var i = arrary.length
   while (i > 0) {
 i=--i
 array[i]=array[i]+"!!!"
