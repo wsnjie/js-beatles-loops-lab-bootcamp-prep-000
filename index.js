@@ -18,7 +18,7 @@ array[i]=array[i]+"!!!"
 }
 function iLoveTheBeatles(n){
   var love = []
-var i=15-n
+ n = (15 - n)+1
   do{
     love.push("I love the Beatles!")
     i++
