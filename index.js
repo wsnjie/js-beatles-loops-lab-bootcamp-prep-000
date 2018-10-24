@@ -18,12 +18,10 @@ array[i]=array[i]+"!!!"
 }
 function iLoveTheBeatles(n){
   var love = []
-  function incrementVariable() {
-    n = (n-15) + 1;
-  }
+n=n-15
   do{
     love.push("I love the Beatles!")
-    incrementVariable()
+    n++
   }while(n<15)
   return love
 }
